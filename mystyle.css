@@ -1,0 +1,50 @@
+body{
+    background-image: url(night.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat
+  }
+  h1{
+    font-family: fantasy;
+    text-align: center;
+    font-size: xx-large;
+    color:tomato;
+    text-shadow: 2px 2px orange
+  }   
+  p{
+    color: rgb(224, 221, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:larger
+  }
+  h2{
+    background-color:orangered;
+    text-shadow: 2px 2px rgb(0, 132, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    color:pink
+  }
+  a{
+    font-family: fantasy;
+   margin-left: 47%;
+    font-size: xx-large;
+    color:tomato;
+    text-shadow: 2px 2px orange
+  }
+  /* unvisited link */
+a:link {
+  color: rgb(255, 0, 242);
+}
+/* visited link */
+a:visited {
+  color: rgb(2, 255, 15);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(235, 252, 5);
+}
+
+/* selected link */
+a:active {
+  color: rgb(2, 247, 255);
